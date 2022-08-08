@@ -1,17 +1,32 @@
-let adresse = ['Angelnstr.13', '22419', 'Hamburg', 'Hamburg'];
+let adresse = ['Angelnstr.13',
+    '22419',
+    'Hamburg',
+    'Hamburg'
+];
 
-let besteFreunde = ['Engin', 'Mudi', 'Joel'];
+let besteFreunde = [
+    'Engin',
+    'Mudi',
+    'Joel'
+];
 
-let person = ['Hussein', 'Kanaan', 'Hussein', '27', 'Tischtennis', 'Braunschweig', 'Supercode.'];
+let person = ['Hussein',
+    'Kanaan',
+    'Hussein',
+    '27',
+    'Tischtennis',
+    'Braunschweig',
+    'Supercode'
+]
 
-console.log(`${adresse}
+/* console.log(`${adresse}
     ${besteFreunde}
     ${person}
-`);
+`); */
 
 // Aufgabe #'Füge die Arrays adresse und bestefreunde zum Array person hinzu.'#
-let result = adresse.concat(person, besteFreunde);
-console.log(result)
+person.push(adresse, besteFreunde)
+console.log(person)
 
 // Aufgabe Gib das Array person in der Konsole aus und versuche auch die jeweiligen Arrays aus der Array person in der Konsole auszugeben.
 console.log(person)
